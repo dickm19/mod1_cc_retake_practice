@@ -27,13 +27,13 @@ Deliverables use the notation `#` for instance methods, and `.` for class method
 
 
 #### Recipe
-- `Recipe#initialize(name, description)`
+<!-- - `Recipe#initialize(name, description)`
   - A recipe should be initialized with a `name` (string) and a `description` (string).
   - The name **cannot** be changed after the recipe is initialized.
   - The description can be changed after the recipe is initialized.
   - Both name and description are readable
 - `Recipe.all`
-  - Returns an array of all recipe instances that have been created.
+  - Returns an array of all recipe instances that have been created. -->
 
 #### Restaurant
 - `Restaurant#initialize(owner, name, star_rating)`
