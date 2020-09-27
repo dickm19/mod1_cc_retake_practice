@@ -7,7 +7,7 @@ def reload
 end
 #owners
 guy = RestaurantOwner.new("guy", 46)
-dude = RestaurantOwner.new("dude", 30)
+dude = RestaurantOwner.new("dude", 31)
 
 #restaurants
 guys_bistro = Restaurant.new(guy, "guy's bistro", 5)
@@ -28,7 +28,10 @@ spaghett = MenuItem.new(guys_bistro, spaghetti, 8)
 #dude's items
 potato_salad = MenuItem.new(dudes_buffet, potato_salad_recipe, 3)
 soft_serve = MenuItem.new(dudes_buffet, soft_serve_recipe, 2)
+dudes_pizza = MenuItem.new(dudes_buffet, pizza_recipe, 4)
 
+#inactive recipes
+meatloaf = Recipe.new("meatloaf", "meat")
 
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
 binding.pry

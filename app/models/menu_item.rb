@@ -20,4 +20,10 @@ class MenuItem
         @restaurant.owner
     end
 
+    # - `MenuItem.most_expensive_item`
+    # - returns the most expensive `MenuItem` instance
+    def self.most_expensive_item
+        max_item = self.all.map {|item| item.price}.max
+        self.all.find {|item| item.price == max_item}
+    end
 end
