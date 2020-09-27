@@ -44,20 +44,20 @@ Deliverables use the notation `#` for instance methods, and `.` for class method
   - Returns an array of all restaurant instances that have been created. -->
 
 #### RestaurantOwner
-- `RestaurantOwner#initialize(name, age)`
+<!-- - `RestaurantOwner#initialize(name, age)`
   - A restaurant_owner should be initialized with a `name` (string) and an `age` (integer).
   - The name and age can be changed after the restaurant_owner is initialized.
   - Both name and age are readable.
 - `RestaurantOwner.all`
-  - Returns an array of all restaurant_owner instances that have been created.
+  - Returns an array of all restaurant_owner instances that have been created. -->
 
 #### MenuItem
-- `MenuItem#initialize(restaurant, recipe, price)`
+<!-- - `MenuItem#initialize(restaurant, recipe, price)`
   - A menu_item should be initialized with a `Restaurant` instance, a `Recipe` instance and a `price` (float).
   - The price can be changed after the menu_item is initialized.
 - `MenuItem.all`
   - Returns an array of all menu_item instances that have been created.
-
+ -->
 
 
 ### Object Relationship Methods
