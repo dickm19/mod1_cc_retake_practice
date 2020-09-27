@@ -36,12 +36,12 @@ Deliverables use the notation `#` for instance methods, and `.` for class method
   - Returns an array of all recipe instances that have been created. -->
 
 #### Restaurant
-- `Restaurant#initialize(owner, name, star_rating)`
+<!-- - `Restaurant#initialize(owner, name, star_rating)`
   - A restaurant should be initialized with a `RestaurantOwner` instance, a `name` (string) and a `star_rating` (integer).
   - The name and star_rating can be changed after the restaurant is initialized.
   - Both name and star_rating are readable.
 - `Restaurant.all`
-  - Returns an array of all restaurant instances that have been created.
+  - Returns an array of all restaurant instances that have been created. -->
 
 #### RestaurantOwner
 - `RestaurantOwner#initialize(name, age)`
