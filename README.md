@@ -63,32 +63,32 @@ Deliverables use the notation `#` for instance methods, and `.` for class method
 ### Object Relationship Methods
 
 #### Recipe
-- `Recipe#menu_items`
-  - returns an array of all the `MenuItem` instances for the `Recipe`.
-- `Recipe#restaurants`
-  - returns an array of all the `Restaurant` instances that have the `Recipe` on their menu.
+<!-- - `Recipe#menu_items`
+  - returns an array of all the `MenuItem` instances for the `Recipe`. -->
+<!-- - `Recipe#restaurants`
+  - returns an array of all the `Restaurant` instances that have the `Recipe` on their menu. -->
 
 #### Restaurant
-- `Restaurant#menu_items`
-  - returns an array of all the `MenuItem` instances for the `Restaurant`.
-- `Restaurant#owner`
-  - returns the `RestaurantOwner` instance associated with the `Restaurant` instance
-- `Restaurant#recipes`
-  - returns an array of all the `Recipe` instances that are on this `Restaurant`s menu.
+<!-- - `Restaurant#menu_items`
+  - returns an array of all the `MenuItem` instances for the `Restaurant`. -->
+<!-- - `Restaurant#owner`
+  - returns the `RestaurantOwner` instance associated with the `Restaurant` instance -->
+<!-- - `Restaurant#recipes`
+  - returns an array of all the `Recipe` instances that are on this `Restaurant`s menu. -->
 
 #### RestaurantOwner
-- `RestaurantOwner#restaurants`
-  - returns an array of `Restaurant` instances associated with the `RestaurantOwner` instance.
-- `RestaurantOwner#menu_items`
-  - returns an array of `MenuItem` instances associated with any of the `RestaurantOwner`s `Restaurant` instances.
+<!-- - `RestaurantOwner#restaurants`
+  - returns an array of `Restaurant` instances associated with the `RestaurantOwner` instance. -->
+<!-- - `RestaurantOwner#menu_items`
+  - returns an array of `MenuItem` instances associated with any of the `RestaurantOwner`s `Restaurant` instances. -->
 
 #### MenuItem
-- `MenuItem#recipe`
-  - returns the `Recipe` instance associated with the `MenuItem` instance
-- `MenuItem#restaurant`
-  - returns the `Restaurant` instance associated with the `MenuItem` instance
-- `MenuItem#owner`
-  - returns the `Owner` instance associated with the `MenuItem` instance
+<!-- - `MenuItem#recipe`
+  - returns the `Recipe` instance associated with the `MenuItem` instance -->
+<!-- - `MenuItem#restaurant`
+  - returns the `Restaurant` instance associated with the `MenuItem` instance -->
+<!-- - `MenuItem#owner`
+  - returns the `Owner` instance associated with the `MenuItem` instance -->
 
 
 

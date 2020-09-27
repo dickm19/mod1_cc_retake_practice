@@ -14,4 +14,10 @@ class MenuItem
         @@all
     end
 
+#     - `MenuItem#owner`
+#   - returns the `Owner` instance associated with the `MenuItem` instance
+    def owner
+        @restaurant.owner
+    end
+
 end
